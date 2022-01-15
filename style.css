@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: 'Lobster', cursive;
+font-family: 'Mochiy Pop P One', sans-serif;
+font-family: 'Moon Dance', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+}
+nav{
+    display: flex;
+   justify-content: space-between;
+   height: 80px;
+ align-items: center;
+ cursor: pointer;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+.navigation{
+    display: flex;
+    list-style: none;
+ 
+}
+.navigation li{
+    margin-right: 15px;
+    
+}
+.flexible{
+    display: flex;
+}
+.flexible img{
+ padding-left: 55px;
+}
+.banner-left{
+    padding: 20px 20px;
+    margin-top: 80px;
+    width: 50%;
+    margin-left: 80px;
+}
+.banner-left h1{
+  font-size:50px;
+}
+.banner-left p{
+    padding: 20px 0;
+
+}
+button{
+    background-color:crimson;
+    padding:10px 25px;
+    font-size: 15px;
+    border-radius: 20px;
+    color: white;
+}
+.logos{
+    margin-left: 100px;
+    border: 1px solid silver;
+    width: 85%;
+   
+}
+
+.logos img{
+    padding: 35px;
+}
+
