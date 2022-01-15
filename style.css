@@ -70,4 +70,57 @@ button{
 .logos img{
     padding: 35px;
 }
+/* Products section style */
+.product-section-title{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 2em;
 
+}
+.products-items{
+    margin: 80px;
+}
+.products-items h1{
+    font-size: 30px;
+}
+.products-prize{
+    font-size: 25px;
+}
+.fa-star.color{
+    color: #FFC014;}
+.fa-star.different{
+    color: #AEAEAE;
+}
+.fa-star{
+    font-size: 12px;
+}
+.product-info{
+    display: flex;
+}
+.product-info p{
+    margin-left: 10px;
+    color:rgb(127, 131, 136);
+}
+.product-detail{
+    color:rgb(127, 131, 136);
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 80px 90px 90px 90px;
+    grid-gap: 0px;
+ }
+ .products-items{
+     border: 1px solid lightslategrey;
+     border-radius: 7px;
+     margin: 30px 30px 30px 30px;
+     box-shadow: rgb(127, 131, 136);
+     padding: 15px;
+    }
+    h4{
+       
+text-align: end;
+margin-right: 80px;
+color: crimson;
+font-size: 25px;
+    }
