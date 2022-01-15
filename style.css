@@ -124,3 +124,24 @@ margin-right: 80px;
 color: crimson;
 font-size: 25px;
     }
+    .payment-method{
+        text-align:center;
+        padding: 30PX;
+    }
+  
+    .fab,.far{
+        padding:25px;
+        border: 1px solid black;
+    border-radius: 10px;
+      font-size: 30px;
+      margin:0 60px;
+      background-color: lightpink;
+ }
+ .far:hover{
+     transform:scale(1.5) rotate(360deg);
+     transition: transform 3s ease-in-out;
+ }
+ .fab:hover{
+    transform:scale(1.5) rotate(360deg);
+    transition: transform 3s ease-in-out;
+}
